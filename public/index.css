@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(Images/Homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: overlay;
+}
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #999999a9;
+  border-radius: 2px;
+}
+
+.nav-container {
+  height: 30%;
+  background-color: white;
+}
+
+.nav {
+  float: right;
+  display: flex;
+  padding-top: 75px;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  border-radius: 50%;
+  height: 150px;
+  padding: 25px;
+}
+
+.nav-item {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  max-width: 100%;
+  display: inline-block;
+  background-color: transparent;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+}
+
+.nav-item:hover {
+  color: grey;
+}
+
+.nav-spacer {
+  width: 2em;
+}
+
+.title-container {
+  padding-top: 200px;
+}
+
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-size: 6em;
+  text-align: center;
+}
